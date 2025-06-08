@@ -1,2 +1,6 @@
 #!/bin/bash
+<<<<<<< HEAD
 pwd
+=======
+echo $PATH
+>>>>>>> aee299259703d88740b09529f9c7e11f654faec2
