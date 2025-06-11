@@ -1,0 +1,11 @@
+#!/bin/bash
+
+# Define the directory where files will be moved
+destination="/tmp/u"
+
+# Loop through all files in the current directory
+for file in *; do
+   if [[ -f "$file" && "$file" =~ ^[A-Z] ]]; then
+    mv "$file" "$destination"
+  fi
+done
